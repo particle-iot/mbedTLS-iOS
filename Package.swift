@@ -13,6 +13,9 @@ let package = Package(
         .library(
             name: "mbedTLS",
             targets: ["mbedTLS"]),
+        .library(
+            name: "libmbedtls",
+            targets: ["libmbedtls"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
